@@ -239,3 +239,14 @@ main .container .wrapper .copy_block .text_block a{
 	text-decoration: none;
 }
 
+.block_recept{
+	background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.block{
+	padding-top: 10px;
+}
+
