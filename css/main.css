@@ -247,6 +247,12 @@ main .container .wrapper .copy_block .text_block a{
     flex-direction: row;
 }
 .block{
-	padding-top: 10px;
-}
+	text-align: center;
+	display: flex;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 320px;
+	}
 
