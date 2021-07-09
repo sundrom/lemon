@@ -229,8 +229,9 @@ main .container .wrapper .copy_block .text_block h1{
 main .container .wrapper .copy_block .text_block p{
 	text-align: left;
 	padding: 10px;
-	font-family: Josefin Sans;
+	font-family:'Josefin Sans', sans-serif;
 	margin: 20px;
+	font-size: 16px;
 
 }
 main .container .wrapper .copy_block .text_block a{
@@ -241,18 +242,71 @@ main .container .wrapper .copy_block .text_block a{
 
 .block_recept{
 	background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+}
+.recept_img{
+	margin: 0;
 }
 .block{
 	text-align: center;
-	display: flex;
-    padding: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 320px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 320px;
 	}
 
+footer .container .wrapper{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .container .wrapper nav{
+	display: flex;
+}
+
+footer .container .wrapper nav li{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+
+footer .container .wrapper .footer_logo{
+	display: flex;
+}
+
+footer .container .wrapper .footer_logo img{
+	width: 86px;
+}
+
+
+/*RECEPT HTML PAGE*/
+.recept_page main .container{
+
+}
+.recept{
+	display: flex;
+	background-color: white;
+
+}
+.recept_page main .container .recept_logo{
+	display: flex;
+  width: 44.3%;
+  flex-direction: column;
+}
+
+.recept_text{
+	margin: 0 25px;
+	overflow: scroll;
+
+	height: 350px;
+}
