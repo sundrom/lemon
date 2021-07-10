@@ -282,6 +282,8 @@ footer .container .wrapper nav li{
 
 footer .container .wrapper .footer_logo{
 	display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer .container .wrapper .footer_logo img{
