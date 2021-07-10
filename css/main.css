@@ -446,3 +446,20 @@ main .container .wrapper .side_bar .block2 .recept_top{
  margin: 0 15px;
   justify-content: space-between;
 }
+main .container .wrapper .side_bar .block2 .filter{
+	display: flex;
+}
+
+main .container .wrapper .side_bar .block2 .filter ul{
+	margin: 0 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+main .container .wrapper .side_bar .block2 .filter li{
+	margin: 0 10px;
+	text-align: center;
+}
