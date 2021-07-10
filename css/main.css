@@ -310,3 +310,16 @@ footer .container .wrapper .footer_logo img{
 
 	height: 350px;
 }
+@media all and (max-width: 1240px){
+	.recept{
+		width: 960px;
+	}
+}
+@media all and (max-width: 480px){
+	.recept{
+		width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+}
